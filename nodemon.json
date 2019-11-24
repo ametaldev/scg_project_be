@@ -1,0 +1,14 @@
+{
+    "restartable": "rs",
+    "ignore": [
+        ".git",
+        "node_modules/**/node_modules",
+        "temp"
+    ],
+    "verbose": true,
+    "watch": [
+        "server.js",
+        "router/"
+    ],
+    "ext": "js json"
+}
