@@ -60,7 +60,7 @@ router.post('/getMap', function(req, res) {
         let api = `${process.env.BASE_URL}${process.env.BASE_PATH}${process.env.API_KEYWORD}${process.env.API_KEY}`
         axios.post(`${api}`, '').then(response => 
             {
-              res.status(status).json(response.data) 
+                response.status(status).json(response.data) 
           }).catch(error => {
              console.log(error)
           });
