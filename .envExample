@@ -1,0 +1,4 @@
+BASE_URL=https://maps.googleapis.com/
+BASE_PATH=maps/api/place/textsearch/json?query=
+API_KEYWORD=restaurants+in+Bangsue&key=
+API_KEY=AIzaSyCF8JXuPxQctbyBw2A4YiHW77YrluaxRQg
